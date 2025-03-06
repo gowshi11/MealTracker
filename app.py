@@ -12,7 +12,7 @@ from flask import Flask, render_template, request, session
 app = Flask(__name__)
 
 nlp = spacy.load('en_core_web_sm')
-
+dffasdfgaf
 # save data
 data = {"users": []}
 with open('DATA.json', 'w') as outfile:
